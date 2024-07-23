@@ -13,7 +13,7 @@
 }
 
 /* login page */
-
+/* 
 [data-path="login"] .navbar-light {
 	border-bottom: 1px solid var(--blue-400) !important;
 	background: white;
@@ -56,6 +56,8 @@
 	color: var(--blue-600) !important;
 }
 
+*/
+
 /* NAVBAR DESIGNE */
 
 .navbar .navbar-expand span, 
@@ -81,8 +83,9 @@
 .icon, .es-icon {
 	fill: white !important;
 }
-/* PAGE DESIGN */
 
+/* PAGE DESIGN */
+/*
 body, .page-container { 
 	background-color: var(--bg-color) !important;
 }
@@ -104,6 +107,7 @@ body, .page-container {
 .datatable .dt-cell {
   background-color: #fff !important;
 }
+*/
 
 /* DASHBOARD DESIGN */
 .desk-sidebar-item{
@@ -111,7 +115,7 @@ body, .page-container {
 }
 
 .widget.links-widget-box, .widget.dashboard-widget-box {
-	border: 1px solid #714B6780;
+	border: 1px solid #25b14a;
 }
 
 .widget.links-widget-box .widget-head .widget-label .widget-title{
@@ -143,7 +147,7 @@ a.onboard-spotlight .link-content:hover {
 }
 
 /* LIST GRID DESIGN */
-
+/*
 .list-filters .form-control, .standard-filter-section .form-control, .standard-filter-section .form-control {
 	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
 }
@@ -160,8 +164,11 @@ a.onboard-spotlight .link-content:hover {
 .standard-filter-section .form-control:focus, .standard-filter-section .form-control:hover {
 	box-shadow: 0 0 0 2px rgba(124, 124, 124, 0.25) !important;
 }
+*/
 
 /*  FORM DESIGN  */
+/*
+
 .form-control, .frappe-control .ql-editor:not(.read-mode){
 	box-shadow: 0 0 0 1px rgba(124, 124, 124, 0.25) !important;
 }
@@ -216,8 +223,11 @@ input[type="checkbox"]:checked {
 .datepicker {
 	 background-color: var(--bg-color) !important;
 }
+*/
 
 /* BUTTONS DESIGN */ 
+/*
+
 .btn{
 	border-radius: 0.25rem !important;
 }
@@ -300,8 +310,10 @@ input[type="checkbox"]:checked {
 	border-top-left-radius: 0 !important;
 	border-bottom-left-radius: 0 !important;
 }
+*/
 
 /* POS DESIGN */
+/*
 
 .point-of-sale-app section { 
 	min-height: 40rem !important;
@@ -345,3 +357,4 @@ input[type="checkbox"]:checked {
   background-color:  white !important;
   color: black;
 }
+*/
