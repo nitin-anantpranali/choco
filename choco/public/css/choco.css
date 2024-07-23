@@ -3,7 +3,7 @@
 	--btn-primary: #714B67;
 	--btn-secondary: #017E8480;
 	--secondary: #017E84;
-	--navbar-bg: #714B67;
+	--navbar-bg: #25b14a;
 	--text-btn-color: white;
 	--table-border-color: #714b6740;
 	--btn-default-hover-bg: white;
@@ -78,6 +78,9 @@
 	color: var(--neutral-black) !important;
 }
 
+.icon, .es-icon {
+	fill: white !important;
+}
 /* PAGE DESIGN */
 
 body, .page-container { 
