@@ -1,7 +1,7 @@
-app_name = "nitin-theme"
-app_title = "NITIN-THEME"
+app_name = "choco"
+app_title = "CHOCO"
 app_publisher = "contact@anantpranali.com"
-app_description = "TEMPLATE FRAPPE NITIN-THEME"
+app_description = "TEMPLATE FRAPPE CHOCO"
 app_email = "contact@anantpranali.com"
 app_license = "mit"
 # required_apps = []
@@ -10,15 +10,15 @@ app_license = "mit"
 # ------------------
 
 # include js, css files in header of desk.html
-app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
-# app_include_js = "/assets/nitin-theme/js/nitin-theme.js"
+app_include_css = "/assets/choco/css/choco.css"
+# app_include_js = "/assets/choco/js/choco.js"
 
 # include js, css files in header of web template
-# web_include_css = "/assets/nitin-theme/css/nitin-theme.css"
-# web_include_js = "/assets/nitin-theme/js/nitin-theme.js"
+# web_include_css = "/assets/choco/css/choco.css"
+# web_include_js = "/assets/choco/js/choco.js"
 
 # include custom scss in every website theme (without file extension ".scss")
-# website_theme_scss = "nitin-theme/public/scss/website"
+# website_theme_scss = "choco/public/scss/website"
 
 # include js, css files in header of web form
 # webform_include_js = {"doctype": "public/js/doctype.js"}
@@ -36,7 +36,7 @@ app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
 # Svg Icons
 # ------------------
 # include app icons in desk
-# app_include_icons = "nitin-theme/public/icons.svg"
+# app_include_icons = "choco/public/icons.svg"
 
 # Home Pages
 # ----------
@@ -60,43 +60,43 @@ app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
 
 # add methods and filters to jinja environment
 # jinja = {
-# 	"methods": "nitin-theme.utils.jinja_methods",
-# 	"filters": "nitin-theme.utils.jinja_filters"
+# 	"methods": "choco.utils.jinja_methods",
+# 	"filters": "choco.utils.jinja_filters"
 # }
 
 # Installation
 # ------------
 
-# before_install = "nitin-theme.install.before_install"
-# after_install = "nitin-theme.install.after_install"
+# before_install = "choco.install.before_install"
+# after_install = "choco.install.after_install"
 
 # Uninstallation
 # ------------
 
-# before_uninstall = "nitin-theme.uninstall.before_uninstall"
-# after_uninstall = "nitin-theme.uninstall.after_uninstall"
+# before_uninstall = "choco.uninstall.before_uninstall"
+# after_uninstall = "choco.uninstall.after_uninstall"
 
 # Integration Setup
 # ------------------
 # To set up dependencies/integrations with other apps
 # Name of the app being installed is passed as an argument
 
-# before_app_install = "nitin-theme.utils.before_app_install"
-# after_app_install = "nitin-theme.utils.after_app_install"
+# before_app_install = "choco.utils.before_app_install"
+# after_app_install = "choco.utils.after_app_install"
 
 # Integration Cleanup
 # -------------------
 # To clean up dependencies/integrations with other apps
 # Name of the app being uninstalled is passed as an argument
 
-# before_app_uninstall = "nitin-theme.utils.before_app_uninstall"
-# after_app_uninstall = "nitin-theme.utils.after_app_uninstall"
+# before_app_uninstall = "choco.utils.before_app_uninstall"
+# after_app_uninstall = "choco.utils.after_app_uninstall"
 
 # Desk Notifications
 # ------------------
 # See frappe.core.notifications.get_notification_config
 
-# notification_config = "nitin-theme.notifications.get_notification_config"
+# notification_config = "choco.notifications.get_notification_config"
 
 # Permissions
 # -----------
@@ -135,39 +135,39 @@ app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
 
 # scheduler_events = {
 # 	"all": [
-# 		"nitin-theme.tasks.all"
+# 		"choco.tasks.all"
 # 	],
 # 	"daily": [
-# 		"nitin-theme.tasks.daily"
+# 		"choco.tasks.daily"
 # 	],
 # 	"hourly": [
-# 		"nitin-theme.tasks.hourly"
+# 		"choco.tasks.hourly"
 # 	],
 # 	"weekly": [
-# 		"nitin-theme.tasks.weekly"
+# 		"choco.tasks.weekly"
 # 	],
 # 	"monthly": [
-# 		"nitin-theme.tasks.monthly"
+# 		"choco.tasks.monthly"
 # 	],
 # }
 
 # Testing
 # -------
 
-# before_tests = "nitin-theme.install.before_tests"
+# before_tests = "choco.install.before_tests"
 
 # Overriding Methods
 # ------------------------------
 #
 # override_whitelisted_methods = {
-# 	"frappe.desk.doctype.event.event.get_events": "nitin-theme.event.get_events"
+# 	"frappe.desk.doctype.event.event.get_events": "choco.event.get_events"
 # }
 #
 # each overriding function accepts a `data` argument;
 # generated from the base implementation of the doctype dashboard,
 # along with any modifications made in other Frappe apps
 # override_doctype_dashboards = {
-# 	"Task": "nitin-theme.task.get_dashboard_data"
+# 	"Task": "choco.task.get_dashboard_data"
 # }
 
 # exempt linked doctypes from being automatically cancelled
@@ -181,13 +181,13 @@ app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
 
 # Request Events
 # ----------------
-# before_request = ["nitin-theme.utils.before_request"]
-# after_request = ["nitin-theme.utils.after_request"]
+# before_request = ["choco.utils.before_request"]
+# after_request = ["choco.utils.after_request"]
 
 # Job Events
 # ----------
-# before_job = ["nitin-theme.utils.before_job"]
-# after_job = ["nitin-theme.utils.after_job"]
+# before_job = ["choco.utils.before_job"]
+# after_job = ["choco.utils.after_job"]
 
 # User Data Protection
 # --------------------
@@ -217,7 +217,7 @@ app_include_css = "/assets/nitin-theme/css/nitin-theme.css"
 # --------------------------------
 
 # auth_hooks = [
-# 	"nitin-theme.auth.validate"
+# 	"choco.auth.validate"
 # ]
 
 # Automatically update python controller files with type annotations for this app.
