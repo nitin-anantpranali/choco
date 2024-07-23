@@ -9,7 +9,7 @@
 	--btn-default-hover-bg: white;
 	--sidebar-select-color: #017E8420;
 	--checkbox-gradient: linear-gradient(180deg, var(--btn-primary) -124.51%, var(--btn-primary) 100%);
-	--text-base: 14px;
+	--text-base: 13px;
 }
 
 /* login page */
@@ -65,19 +65,21 @@
 #navbar-breadcrumbs a,
 
 .navbar-home img {
-	max-height: 48px !important;
+	max-height: 48px;
 	width: auto;
-	border-radius: 15px !important;
 }
 
-.nav-item button.nav-link{ 
+.navbar .nav-item button.nav-link{ 
 	color: var(--btn-default-hover-bg) !important;
 
+}
+
+.navbar .navbar-expand{
+	height: 60px;	
 }
 
 .navbar {
-	color: var(--btn-default-hover-bg) !important;
-	height: 60px !important;
+	height: 60px;
 	background: var(--navbar-bg) !important;
 	border-bottom: 1px solid var(--border-color);
 	padding: 0;
