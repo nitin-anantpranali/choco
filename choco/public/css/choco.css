@@ -63,9 +63,24 @@
 .navbar .navbar-expand span, 
 .navbar .navbar-expand li a,
 #navbar-breadcrumbs a,
-.navbar .nav-item button.nav-link{ 
+
+.navbar-home img {
+	max-height: 48px !important;
+	width: auto;
+	border-radius: 15px !important;
+}
+
+.nav-item button.nav-link{ 
 	color: var(--btn-default-hover-bg) !important;
 
+}
+
+.navbar {
+	color: var(--btn-default-hover-bg) !important;
+	height: 60px !important;
+	background: var(--navbar-bg) !important;
+	border-bottom: 1px solid var(--border-color);
+	padding: 0;
 }
 
 #navbar-breadcrumbs li.disabled a {
